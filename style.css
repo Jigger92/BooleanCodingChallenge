@@ -1,0 +1,98 @@
+body{
+    font-family: arial;
+    color: white;
+    background-image: url('foto/background.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+/* contenitore generale*/
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgba(0 0 0/ 43%);
+    padding: 4% 2% 4% 2%;
+    border-radius: 15px;
+    margin-bottom: 150px;
+    margin-top: 30px;
+
+}
+
+header>img{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logotext{
+    color: #40d505;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* barra con pulsanti */
+nav {
+    width: 90%;
+    margin: auto;
+    background-color: #40d505;
+    margin-top: -2%;
+}
+
+/* posizionamento pulsanti*/
+nav>div {
+    width: 24%;
+    margin: auto;
+    padding: 0% 1% 1% 1%
+}
+
+button {
+    font-size: 10%;
+}
+
+/* contenitore testo*/
+main{
+    width: 91%;
+    margin: auto;
+}
+
+.titolo{
+    display: inline-block;
+    margin-bottom: -3%;
+}
+
+.content{
+    font-size: 12px;
+}
+
+.arrow{
+    font-size: 12px;
+}
+
+/*barre di ricarica*/
+.midbattery{
+    width: 220px;
+    height: 5px;
+    padding: 7px;
+    margin: 0;
+    background-color: #ef7f13;
+    border-radius: 5px;
+}
+
+.fullbattery{
+    width: 450px;
+    height: 5px;
+    padding: 7px;
+    margin: 0;
+    background-color: #40d505;
+    border-radius: 5px;
+}
+
+.lowbattery{
+    width: 100px;
+    height: 5px;
+    padding: 7px;
+    margin: 0;
+    background-color: #b20a0a;
+    border-radius: 5px;
+}
